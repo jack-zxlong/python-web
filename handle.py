@@ -37,7 +37,7 @@ class Handle(object):
             if hashcode == signature:
                 return echostr
             else:
-                return ""
+                return "error"
         except Exception, Argument:
             return Argument
 
